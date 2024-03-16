@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('Rubik/static/Rubik-Light.ttf'),
+         url('Rubik/static/Rubik-Regular.ttf'),
+         url('Rubik/static/Rubik-Medium.ttf'),
+         url('Rubik/static/Rubik-SemiBold.ttf'),
+         url('Rubik/static/Rubik-Bold.ttf'),
+         url('Rubik/static/Rubik-ExtraBold.ttf'),
+         url('Rubik/static/Rubik-Black.ttf'),
+         url('Rubik/static/Rubik-LightItalic.ttf'),
+         url('Rubik/static/Rubik-Italic.ttf'),
+         url('Rubik/static/Rubik-MediumItalic.ttf'),
+         url('Rubik/static/Rubik-SemiBoldItalic.ttf'),
+         url('Rubik/static/Rubik-BoldItalic.ttf'),
+         url('Rubik/static/Rubik-ExtraBoldItalic.ttf'),
+         url('Rubik/static/Rubik-BlackItalic.ttf'),
+         url('Rubik/Rubik-VariableFont_wght.ttf'),
+         url('Rubik/Rubik-Italic-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
