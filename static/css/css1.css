@@ -52,7 +52,7 @@
     font-family: 'Rubik', Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
 }
 header{
-    height: 70px;
+    height: 50px;
     background-color: #0c0;
     justify-content: flex-start;
     align-items: center;
@@ -61,10 +61,50 @@ header{
 .df{
     display: flex;
 }
-h1{
-    font-size: 3em;
+.dn{
+    display: none;
 }
 a{
     text-decoration: none;
     color: #000;
 }
+#HRP{
+    gap: 20px;
+}
+.dropbtn {
+    background-color: #000;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+    
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
