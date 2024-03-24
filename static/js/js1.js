@@ -1,18 +1,9 @@
 function vswith(item = HTMLElement, activity = false, time = 0.5, ostart = 0, oend = 1){
-    let j ,b ;
     item.style.cssText += `transition: ${String(time)}s;`
     if (activity == false) {
-        clearTimeout(b)
-        item.style.cssText += `opacity: ${String(ostart)};`
-        j = setTimeout(function(){
-            item.classList.add("dn");
-        },(time * 1000) + 20)
+        item.style.cssText += `z-index: -100;opacity: ${String(ostart)};`
     }else if (activity == true) {
-        clearTimeout(j);
-        item.classList.remove("dn");
-        b = setTimeout(function(){
-            item.style.cssText += `opacity: ${String(oend)};`;
-        },20);
+        item.style.cssText += `z-index: 10;opacity: ${String(oend)};`
     };
 };
 let vsis = document.getElementsByClassName("vsi");
